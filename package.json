@@ -1,0 +1,46 @@
+{
+  "name": "strapi-provider-email-transporter-gmail",
+  "version": "0.0.1",
+  "description": "Nodemailer Gmail provider for strapi email",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi",
+    "nodemailer"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "nodemailer": "^6.3.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "xyztojajestem@gmail.com",
+    "name": "kichiyaki",
+    "url": "https://github.com/kichiyaki"
+  },
+  "maintainers": [
+    {
+      "name": "kichiyaki",
+      "email": "xyztojajestem@gmail.com",
+      "url": "https://github.com/kichiyaki"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kichiyaki/strapi-provider-email-transporter-gmail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}
